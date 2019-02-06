@@ -9,6 +9,6 @@ Invoke-Expression "& '$PathToActivateEnv'"
 
 pytest
 
-# exit $LASTEXITCODE
+exit $LASTEXITCODE
 
 
