@@ -5,7 +5,7 @@ Write-Host "Path: " $CurrentDirectory
 
 $PathToActivateEnv = [System.IO.Path]::Combine($CurrentDirectory, '.\env\Scripts\Activate.ps1')
 
-Invoke-Expression  -Command "& $PathToActivateEnv"
+Invoke-Expression  -Command "& '$PathToActivateEnv'"
 
 pytest
 
