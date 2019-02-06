@@ -1,6 +1,6 @@
 $ErrorActionPreference='Stop'
 
-.\env\Scripts\activate
+& .\env\Scripts\activate
 pytest
 
 # exit $LASTEXITCODE
